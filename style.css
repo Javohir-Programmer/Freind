@@ -54,3 +54,14 @@ main{
     transition: .8s;
     border-radius: 50%;
 }
+
+.box:hover img{
+    border-radius: 50%;
+    transition: .8s;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    
+}
