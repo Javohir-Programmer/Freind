@@ -29,3 +29,28 @@ nav ul li a{
     margin: 0 10px ;
     font-size: 20px;
 }
+
+/* menu */
+main{
+    width: 100%;
+}
+.menu{
+    width: 90%;
+    height: 400px;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+.box:hover{
+    transform: rotate(45deg);
+    transition: .8s;
+    border-radius: 50%;
+}
